@@ -1,0 +1,44 @@
+p
+{
+    color: black;
+}
+li
+{
+	font-weight: bold;
+	text-decoration: underline;
+
+}
+body
+{
+	border-radius: 10px;
+	border: 2px #3388DD	solid;
+	width : 1500 px;
+	margin : 200px;
+}
+h3
+{
+	text-transform : uppercase;
+	border-bottom : 3px solid black;
+	color: black
+}
+h1
+{
+	text-align :center
+}
+header
+{
+	
+
+}
+img
+{
+position: absolute; 
+right: 220px; 
+top: 220px;
+}
+progress
+{
+	position: absolute;
+	left: 350px;
+}
+
