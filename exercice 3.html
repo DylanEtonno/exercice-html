@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<title>Formulaire</title>
+	</head>
+	<body>
+	<h1>Formulaire</h1>
+	</body>
+	
+	 <fieldset>
+       <legend>Vos coordonnees</legend>
+	<form>
+        <label for="pseudo">Votre pseudo :</label>
+        <input type="text" name="nom" size="50">
+    </form>
+
+	<form><br CLEAR="all">
+        <label for="pass">Votre mot de passe :</label>
+       <input type="password" name="pass" id="pass" /
+    </form>
+	
+	<form><br CLEAR="all">
+       <label for="pass">Ressaisir votre mot de passe :</label>
+       <input type="password" name="pass" id="pass" /
+    </form>
+	<form method="post" action="traitement.php"><br CLEAR="all">
+   <p>
+       <label for="pays">Votre profession :</label><br />
+       <select name="profession" id="profession">
+           <option value="Chômeur">Chômeur</option>
+           <option value="Etudiant">Etudiant</option>
+           <option value="Fonctionnaire">Fonctionnaire</option>
+           <option value="Privé">Privé</option>
+           <option value="Retraité">Retraité</option>
+       </select>
+   </p>
+</form>
+	</fieldset>
+	 
+	 <fieldset>
+       <legend>Information IT</legend>
+	<form method="post" action="traitement.php">
+   <p>
+       Os préféré :<br />
+       <input type="radio" name="Os" value="Windows XP" id="Windows XP" /> <label for="Windows XP">Windows XP</label><br />
+       <input type="radio" name="Os" value="Windows Vista" id="Windows Vista" /> <label for="Windows Vista">Windows Vista</label><br />
+       <input type="radio" name="Os" value="MacOS X" id="MacOS X" /> <label for="MacOS X">MacOS X</label><br />
+       <input type="radio" name="Os" value="Linux" id="Linux" /> <label for="Linux">Linux</label><br />
+	   <input type="radio" name="Os" value="Autres" id="Autres" /> <label for="Autres">Autres</label>
+   </p>
+    </form>
+	<form method="post" action="traitement.php">
+   <p>
+       Vous possédez :<br />
+       <input type="checkbox" name="un ordinateur de bureau" id="un ordinateur de bureau" /> <label for="un ordinateur de bureau">un ordinateur de bureau</label><br />
+       <input type="checkbox" name="un portable" id="un portable" /> <label for="un portable">un portable</label><br />
+       <input type="checkbox" name="un netbook" id="un netbook" /> <label for="un netbook">un netbook</label><br />
+       <input type="checkbox" name="une tablette(Pad)" id="une tablette(Pad)" /> <label for="une tablette(Pad)">une tablette(Pad)</label>
+   </p>
+</form>
+		</fieldset>
+	
+	
+	<br CLEAR="all"><br CLEAR="all"><br CLEAR="all"><input type="submit" value="S'inscrire !" />
+	
+</html>
